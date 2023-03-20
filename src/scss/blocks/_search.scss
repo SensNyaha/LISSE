@@ -1,0 +1,46 @@
+.search {
+    width: 250px;
+
+    background: rgba(255, 255, 255, 0.1);
+    border: 0.5px solid rgba(35, 35, 35, 0.4);
+    border-radius: 100px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 10px 22px;
+
+    &__input {
+        background-color: transparent;
+        border: none;
+        outline: none;
+
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 18px;
+
+        padding: 0;
+        min-width: 0;
+
+        color: #232323;
+
+        &::placeholder {
+            color: rgba(35, 35, 35, 0.5);
+        }
+    }
+
+    &__button {
+        padding: 0;
+        background-color: transparent;
+
+        border: none;
+
+        flex-shrink: 0;
+    }
+    &__icon {
+        transition: all .5s;
+        &:hover {
+            transform: rotateZ(90deg);
+        }
+    }
+}
