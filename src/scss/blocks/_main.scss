@@ -1,0 +1,26 @@
+.main {
+    width: 683px;
+
+    &__title {
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 58px;
+        line-height: 70px;
+
+        span {
+            color: #0945DD;
+        }
+    }
+    &__button {
+        margin-top: 45px;
+
+        padding: 24px 40px;
+
+        background: linear-gradient(93.42deg, rgba(1, 48, 168, 0.078) 7.81%, rgba(255, 255, 255, 0.3) 52.65%, rgba(255, 255, 255, 0.3) 86.63%);
+        border: 1px solid #232323;
+
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
